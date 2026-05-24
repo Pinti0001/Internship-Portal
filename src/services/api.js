@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const API_URL = '/api/hiring/search';
+// const API_URL = '/api/hiring/search';
+const API_URL = '/api/internships';
 
 function normalizeInternship(raw) {
   const durationMatch = String(raw.duration || '').match(/(\d+)/);
