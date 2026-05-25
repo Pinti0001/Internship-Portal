@@ -1,7 +1,7 @@
 export default async function handler(req, res) {
   try {
     const response = await fetch(
-      'https://internshala.com/api/hiring/search'
+      'https://internshala.com/hiring/search'
     );
 
     const data = await response.json();
